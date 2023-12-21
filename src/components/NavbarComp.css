@@ -1,0 +1,10 @@
+/* NavbarComp.css */
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #006230 !important; /* Your custom color */
+}
+.nav-link {
+    color: #fff !important; 
+    opacity: 80% !important;
+}
