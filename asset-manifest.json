@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/benkrara-morocco/static/css/main.8336308b.css",
+    "main.js": "/benkrara-morocco/static/js/main.81bfd9f7.js",
+    "static/js/787.c69b3122.chunk.js": "/benkrara-morocco/static/js/787.c69b3122.chunk.js",
+    "index.html": "/benkrara-morocco/index.html",
+    "main.8336308b.css.map": "/benkrara-morocco/static/css/main.8336308b.css.map",
+    "main.81bfd9f7.js.map": "/benkrara-morocco/static/js/main.81bfd9f7.js.map",
+    "787.c69b3122.chunk.js.map": "/benkrara-morocco/static/js/787.c69b3122.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8336308b.css",
+    "static/js/main.81bfd9f7.js"
+  ]
+}
