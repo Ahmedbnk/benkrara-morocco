@@ -1,0 +1,8 @@
+.section {
+  scroll-snap-type: y mandatory;
+  
+}
+
+.image-height {
+  scroll-snap-align: start;
+}

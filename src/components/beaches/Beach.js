@@ -1,21 +1,21 @@
-import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import cities from "./Cities";
-import "./City.css";
+import beachesData from "./beachesData";
 import { Container } from "react-bootstrap";
 
-function City() {
-  window.scrollTo({ top: 140 });
+function Beach() {
+  window.scrollTo({ top: 0 });
   const params = useParams();
-  const [chosenCity] = cities.filter((city) => city.id == params.cityId);
+  const [chosenBeach] = beachesData.filter(
+    (beach) => beach.id == params.beachId
+  );
 
   return (
     <div className="">
       <div className="image-container">
-        <img alt="" className="first-image" src={chosenCity.image}></img>
+        <img alt="" className="first-image" src={chosenBeach.image}></img>
         <div className="sub-container">
           <h1 className=" " style={{ color: "#fff", opacity: "95%" }}>
-            {chosenCity.secondName}
+            {chosenBeach.shortDescription}
           </h1>
         </div>
       </div>
@@ -23,21 +23,21 @@ function City() {
       <div className="tip-cards">
         <div className="general-infos">
           <h1 className="main-green title pt-4">
-            Essential Facts about {chosenCity.name}
+            Beach Chronicles: Unveiling {chosenBeach.name} Wonders
           </h1>
           <div className="line-container">
             <span className="line mb-4"></span>
           </div>
           <Container>
             <div className="row">
-              {chosenCity.essentialFacts.map((fact) => (
-                <div className="col-md-6 col-lg-3 mb-4" key={fact.id}>
-                  <div className="box-2 card-height bg-white">
-                    <div className="image-fluid-container position-relative">
+              {chosenBeach.facts.map((fact) => (
+                <div className="col-md-6 col-lg-4 mb-4" key={fact.id}>
+                  <div
+                    className="box-2 card-height bg-white"
+                    style={{ height: "440px" }}
+                  >
+                    <div className="image-fluid-container ">
                       <img src={fact.image} className="img-fluid" alt="test" />
-                      <div className="image-overlay">
-                        <div className="overlay-text">{fact.title}</div>
-                      </div>
                     </div>
                     <h4 className="cart-title main-green p-3">{fact.title}</h4>
                     <blockquote className="text-black-50 pt-3 ps-2 pe-2">
@@ -53,5 +53,4 @@ function City() {
     </div>
   );
 }
-
-export default City;
+export default Beach;

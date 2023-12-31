@@ -2,6 +2,9 @@
     width: 100%;
    height: 100%;
   }
+  .title{
+    margin-bottom: 18px;
+  }
 .discover-btn{
   color: #006230 !important;
   background-color: #e70014 !important;
@@ -12,7 +15,10 @@
     
     height: 100px;
   }
-  
+  .image-height{
+    height: 83vh;
+}
+
   @media (max-width: 768px) {
     .carousel-image {
       min-height: 475px;
@@ -21,6 +27,7 @@
       width: 80%;
      
     }
+    
   }
   @media (min-width: 768px) {
     .image-height{

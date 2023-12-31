@@ -21,7 +21,7 @@ function Carouse() {
               variant="secondary"
               className="discover-btn"
             >
-              <h6>Discover {city.name}</h6>
+              <h5 className="discover">Discover {city.name}</h5>
             </Button>
           </Carousel.Caption>
         </Carousel.Item>

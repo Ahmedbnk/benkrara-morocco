@@ -1,0 +1,86 @@
+
+.overflow-auto::-webkit-scrollbar {
+    width: 14px;
+}
+
+.overflow-auto::-moz-scrollbar {
+    width: 14px;
+}
+
+.overflow-auto::-ms-scrollbar {
+    width: 14px;
+}
+
+
+.overflow-auto::-webkit-scrollbar-track {
+    background-color: #00622f59;
+    
+}
+
+.overflow-auto::-moz-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+.overflow-auto::-ms-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+
+.overflow-auto::-webkit-scrollbar-thumb {
+    background-color: #e70014;
+    border-radius: 6px;
+}
+
+.overflow-auto::-moz-scrollbar-thumb {
+    background-color: #e70014;
+    border-radius: 6px;
+}
+
+.overflow-auto::-ms-scrollbar-thumb {
+    background-color: #e70014;
+    border-radius: 6px;
+}
+
+
+.paragraphe {
+    font-size: 18px;
+}
+
+.image-timer-container{
+    width: 100%;
+    position: relative;
+   
+}
+.image-timer{
+    width: 100%;
+    height: 100%;
+   filter: grayscale(100%);
+ 
+}
+
+.timer{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color:#fff;
+    display: block;
+    width: 80%;
+    text-shadow: 2px 2px 4px #fc3446;
+    line-height: 1.5;
+    
+}
+
+@media (min-width :768px){
+    
+    .image-timer-sub-container{
+        height: 89.7vh;
+    }
+}
+
+@media (max-width :767px){
+    
+    .image-timer-sub-container{
+        height: 355px;
+    }
+}

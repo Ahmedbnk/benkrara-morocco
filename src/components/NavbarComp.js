@@ -15,7 +15,12 @@ import Navbar from "react-bootstrap/Navbar";
 
 function NavbarComp() {
   return (
-    <Navbar style={{ backgroundColor: "#e70014" }} expand="lg" variant="dark">
+    <Navbar
+      style={{ backgroundColor: "#e70014" }}
+      className="sticky-top"
+      expand="lg"
+      variant="dark"
+    >
       <Container>
         <Navbar.Brand
           as={Link}

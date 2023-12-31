@@ -1,0 +1,100 @@
+.map-section {
+    background-color: #eff7fa;
+  }
+  
+  .title {
+    color: #006230;
+  }
+  
+  .line {
+    display: block;
+    height: 2px;
+    background: #006230;
+    width: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .map-image {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    background-image: url("https://i.pinimg.com/736x/35/6a/e9/356ae953e0fe5ae04179a2fe23cd9d13.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .city {
+    font-size: 11px;
+    position: absolute;
+    color: #fff;
+    
+    border-bottom: 1px solid #006230;
+  }
+  .city:hover {
+    border-bottom: 2px solid #fff;
+  }
+ 
+  .tangier {
+    left: 63%;
+    top: 10%;
+}
+  
+.casablanca {
+    left: 50%;
+    top: 24%;
+}
+  
+  .marrakech {
+    left: 47%;
+    top: 35%;
+}
+  
+.agadir {
+    left: 42%;
+    top: 44%;
+}
+  
+  .essaouira {
+    left: 39%;
+    top: 39%;
+}
+  
+  .chefchaouen {
+    left: 61%;
+    top: 14%;
+}
+  
+.meknes {
+    left: 65%;
+    top: 25%;
+}
+  
+.ouarzazate {
+    left: 57%;
+    top: 39%;
+}
+  
+  .safi {
+    left: 50%;
+    top: 30%;
+  }
+  
+  .rabat {
+    left: 57%;
+    top: 20%;
+}
+  
+.fes{
+    left:74%;
+    top:22%;
+}
+
+@media (min-width:767px){
+    p{
+        line-height: 2;
+        
+    }
+   
+}

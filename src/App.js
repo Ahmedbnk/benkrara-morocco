@@ -10,10 +10,11 @@ import NavbarComp from "./components/NavbarComp";
 import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home/Home";
 import City from "./components/Home/Cities/City";
+import Beach from "./components/beaches/Beach";
 
 function App() {
   return (
-    <div className="App" style={{ height: "2000px" }}>
+    <div className="App">
       <NavbarComp />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -24,6 +25,7 @@ function App() {
         <Route path="Contemporary" element={<Contemporary />} />
         <Route path="Contact" element={<Contact />} />
         <Route path="cities/:cityId" element={<City />} />
+        <Route path="beaches/:beachId" element={<Beach />}></Route>
       </Routes>
     </div>
   );
