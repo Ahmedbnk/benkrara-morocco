@@ -1,5 +1,5 @@
 function MoroccanTraditionalCraft() {
-  return <div>test</div>;
+  return <div>MoroccanTraditionalCraft</div>;
 }
 
 export default MoroccanTraditionalCraft;

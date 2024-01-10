@@ -51,15 +51,22 @@ function NavbarComp() {
                 title="Art & Culture"
                 id="basic-nav-dropdown"
               >
-                <NavDropdown.Item href="#">Gastronomy</NavDropdown.Item>
-                <NavDropdown.Item href="#">Local Products</NavDropdown.Item>
-                <NavDropdown.Item href="#">
+                <NavDropdown.Item as={NavLink} to={"/gastronomy"}>
+                  Gastronomy
+                </NavDropdown.Item>
+                <NavDropdown.Item as={NavLink} to={"/localproducts"}>
+                  Local Products
+                </NavDropdown.Item>
+                <NavDropdown.Item as={NavLink} to={"/moroccanTraditionalCraft"}>
                   Moroccan Traditional Craft
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#">
+                <NavDropdown.Item as={NavLink} to={"/moroccanHospitality"}>
                   Moroccan Hospitality
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#">Lifestyle</NavDropdown.Item>
+
+                <NavDropdown.Item as={NavLink} to={"/lifestyle"}>
+                  Lifestyle
+                </NavDropdown.Item>
               </NavDropdown>
             </div>
             <Nav.Link as={NavLink} to={"/Contemporary"}>
