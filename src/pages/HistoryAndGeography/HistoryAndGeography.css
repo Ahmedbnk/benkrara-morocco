@@ -1,0 +1,265 @@
+:root {
+    --card-red:#789450;
+    --card-green:#d9e69e;
+    --card-blue:#1387bd;
+    --background-card-blue:#78d4ff;
+    --p-black:#252525;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-assistant: "Assistant", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+.sub-image-container {
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.con {
+    width: 95%;
+}
+
+.centering {
+    display: flex;
+    justify-content: center;
+}
+
+.p-container,.p-container-first{
+    height: 250px;
+    overflow-y: auto;
+    min-height: 100% !important;
+}
+
+.p-container::-webkit-scrollbar {
+    width: 5px;
+}
+
+.p-container::-webkit-scrollbar-thumb {
+    background: #5d5d5d;
+    border-radius: 20px;
+}
+
+.p-container::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+.p-container-first::-webkit-scrollbar {
+    width: 5px;
+}
+
+.p-container-first::-webkit-scrollbar-thumb {
+    background: #5d5d5d;
+    border-radius: 20px;
+}
+
+.p-container-first::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+.image-title {
+    margin-bottom: 38px !important;
+    display: block;
+    padding: 10px !important;
+    background: rgba(37, 37, 37, 45%);
+    position: absolute;
+    bottom: 0;
+    color: white;
+    left: 0;
+    top:70%;
+    font-family: "Assistant Regular";    
+}
+
+.history-card {
+    width: 155px !important;
+    height: 220px !important;
+    background-color:var(--card-green);
+    border-radius: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.geography .history-card{
+ background-color: var(--background-card-blue);   
+}
+.history-text{
+    color: var(--card-red);
+    
+}
+.geography .history-text{
+    color: var(--card-blue);
+    
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card-text {
+    vertical-align: center;
+}
+
+.history-card-container {
+    height: 450px;
+    position: relative;
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.vertical-line {
+    position: absolute;
+    left: 50%;
+    display: block;
+    width: 10px;
+    height: 25%;
+    border-left: 2px dashed var(--card-green);
+}
+.geography .vertical-line{
+    border-left: 2px dashed var(--background-card-blue);
+}
+
+.vertical-line-top {
+    position: absolute;
+    top: -115px;
+    left: 50%;
+    display: block;
+    width: 10px;
+    height: 25%;
+    border-left: 2px dashed var(--card-green);
+}
+.geography .vertical-line-top{
+    border-left: 2px dashed var(--background-card-blue);
+}
+.history p{
+    font-family: var(--font-assistant);
+    font-size: 18px;
+    line-height: 1.688;
+    color: var(--p-black);
+    margin-top: 22px;
+    font-family: 'Assistant', sans-serif;
+}
+.history p{
+    text-align: start;
+ 
+   }
+  .history h2{
+    text-align: start;
+   }
+
+   .history h2 {
+    
+    font-family: 'Merriweather', serif;
+    
+        text-transform: unset !important;
+    }
+    .geography p{
+        font-family: var(--font-assistant);
+        font-size: 18px;
+        line-height: 1.688;
+        color: var(--p-black);
+        margin-top: 22px;
+        font-family: 'Assistant', sans-serif;
+    }
+    .geography p{
+        text-align: start;
+     
+       }
+      .geography h2{
+        text-align: start;
+       }
+    
+       .geography h2 {
+        
+        font-family: 'Merriweather', serif;
+        
+            text-transform: unset !important;
+        }
+@media (max-width: 993px) {
+    .image {
+        margin-bottom: 20px !important;
+    }
+
+    .mapped-row .history-card {
+        margin-top: 80px !important;
+    }
+
+    .last-card-margin-top {
+        margin-top: 80px !important;
+    }
+
+    .vertical-line-top {
+        margin-top: 118px;
+    }
+
+    .vertical-line-last {
+        position: absolute;
+        left: 50%;
+        display: block;
+        width: 10px;
+        height: 25%;
+        border-left: 2px dashed var(--card-green);
+    }
+    .geography .vertical-line-last{
+        border-left: 2px dashed var(--background-card-blue);
+    }
+
+    .first-card .history-card-container,
+    .history-card-container {
+        height: auto; 
+    }
+
+    .p-container {
+        overflow-y: visible;
+        min-height: auto;
+        height: auto;
+        margin-top: 80px !important;
+    }
+    .p-container-first{
+        overflow-y: visible; 
+        min-height: auto;
+        height: auto;
+        margin-top: 55px !important;   
+    }
+
+    .roww{
+        padding: 0 16px !important;
+    }
+
+   .history p{
+    text-align: start;
+ 
+   }
+  .history h2{
+    text-align: start;
+   }
+   .history img{
+    padding: 0 -15px !important ;
+   }
+   .geography p{
+    text-align: start;
+ 
+   }
+  .geography h2{
+    text-align: start;
+   }
+   .geography img{
+    padding: 0 -15px !important ;
+   }
+
+}
+
+@media (min-width:992px){
+    .geography{
+        margin-top: -150px !important;
+        
+       }    
+}
+
+

@@ -38,6 +38,9 @@ function Beach() {
                   >
                     <div className="image-fluid-container ">
                       <img src={fact.image} className="img-fluid" alt="test" />
+                      <div className="image-overlay">
+                        <div className="overlay-text">{fact.title}</div>
+                      </div>
                     </div>
                     <h4 className="cart-title main-green p-3">{fact.title}</h4>
                     <blockquote className="text-black-50 pt-3 ps-2 pe-2">

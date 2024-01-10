@@ -2,7 +2,7 @@ const beachesData = [
   {
     id: 1,
     name: "Oualidia Beach",
-    shortDescription: "Notable for its lagoon and oyster farming activities.",
+    shortDescription: "Notable for its lagoon and oyster farming activities",
     description:
       "Oualidia Beach is known for its lagoon and oyster farming, offering a serene environment and delicious seafood, making it a hidden gem on Morocco's coastline.",
     image:
@@ -38,7 +38,7 @@ const beachesData = [
     id: 2,
     name: "Plage Quemado",
     shortDescription:
-      "Clear turquoise waters and scenic cliffs, perfect for relaxation.",
+      "Clear turquoise waters and scenic cliffs, perfect for relaxation",
     description:
       "Plage Quemado in Al Hoceima is a picturesque beach known for clear turquoise waters and scenic cliffs, offering an ideal spot to unwind and enjoy the Moroccan coastline.",
     image:
@@ -73,7 +73,7 @@ const beachesData = [
   {
     id: 3,
     name: "Agadir Beach",
-    shortDescription: "Well-known beach with a long stretch of golden sand.",
+    shortDescription: "Well-known beach with a long stretch of golden sand",
     description:
       "Agadir Beach, one of Morocco's favorites, features a long stretch of golden sand and excellent surfing conditions, providing a vibrant beachfront experience.",
     image: "https://www.worldbeachguide.com/photos/agadir-beach-view.jpg",

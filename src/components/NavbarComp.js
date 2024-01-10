@@ -12,11 +12,12 @@ import {
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
 
 function NavbarComp() {
   return (
     <Navbar
-      style={{ backgroundColor: "#e70014" }}
+      style={{ backgroundColor: "#ff4654" }}
       className="sticky-top"
       expand="lg"
       variant="dark"
@@ -26,14 +27,14 @@ function NavbarComp() {
           as={Link}
           to={"/"}
           className="me-5"
-          style={{ color: "#006230" }}
+          style={{ color: "#ffab2f" }}
         >
           <h1>Morocco</h1>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <FontAwesomeIcon
             icon={faBars}
-            style={{ color: "#006230", border: "none", outline: "none" }}
+            style={{ color: "#c00817", border: "none", outline: "none" }}
           />
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
@@ -41,20 +42,30 @@ function NavbarComp() {
             <Nav.Link as={NavLink} to={"/"}>
               <h5>Home</h5>
             </Nav.Link>
-            <Nav.Link as={NavLink} to={"HistoryAndGeography"}>
+            <Nav.Link as={NavLink} to={"/HistoryAndGeography"}>
               <h5>History & Geography</h5>
             </Nav.Link>
-            <Nav.Link as={NavLink} to={"ArtAndCulture"}>
-              <h5>Art & Culture</h5>
+            <div style={{ position: "relative" }}>
+              <NavDropdown
+                style={{ fontSize: "19px" }}
+                title="Art & Culture"
+                id="basic-nav-dropdown"
+              >
+                <NavDropdown.Item href="#">Gastronomy</NavDropdown.Item>
+                <NavDropdown.Item href="#">Local Products</NavDropdown.Item>
+                <NavDropdown.Item href="#">
+                  Moroccan Traditional Craft
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#">
+                  Moroccan Hospitality
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#">Lifestyle</NavDropdown.Item>
+              </NavDropdown>
+            </div>
+            <Nav.Link as={NavLink} to={"/Contemporary"}>
+              <h5>Modern Morocco</h5>
             </Nav.Link>
-            <Nav.Link as={NavLink} to={"Gastronomy"}>
-              <h5>Gastronomy</h5>
-            </Nav.Link>
-
-            <Nav.Link as={NavLink} to={"Contemporary"}>
-              <h5>Contemporary</h5>
-            </Nav.Link>
-            <Nav.Link as={NavLink} to={"Contact"}>
+            <Nav.Link as={NavLink} to={"/Contact"}>
               <h5>Contact</h5>
             </Nav.Link>
           </Nav>
