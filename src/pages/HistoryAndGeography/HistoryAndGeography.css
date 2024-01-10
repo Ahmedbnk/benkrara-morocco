@@ -61,7 +61,7 @@
 }
 
 .image-title {
-    margin-bottom: 38px !important;
+    margin-bottom: 38px;
     display: block;
     padding: 10px !important;
     background: rgba(37, 37, 37, 45%);
@@ -69,7 +69,7 @@
     bottom: 0;
     color: white;
     left: 0;
-    top:70%;
+    
     font-family: "Assistant Regular";    
 }
 
