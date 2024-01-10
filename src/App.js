@@ -8,12 +8,13 @@ import City from "./components/Home/Cities/City";
 import Beach from "./components/beaches/Beach";
 import HistoryAndGeography from "./pages/HistoryAndGeography/HistoryAndGeography";
 import Contemporary from "./pages/Contemporary/Contemporary";
-import Gastronomy from "./pages/Gastronomy/Gastronomy";
+
 import Contact from "./pages/Contact/Contact";
 import Lifestyle from "./pages/ArtAndCulture/Lifestyle";
 import MoroccanTraditionalCraft from "./pages/ArtAndCulture/MoroccanTraditionalCraft";
 import Localproducts from "./pages/ArtAndCulture/Localproducts";
 import MoroccanHospitality from "./pages/ArtAndCulture/MoroccanHospitality";
+import Gastronomy from "./pages/ArtAndCulture/Gastronomy";
 
 function App() {
   return (

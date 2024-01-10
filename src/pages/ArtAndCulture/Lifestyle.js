@@ -1,5 +1,11 @@
+import ArtAndCultureMainComponent from "./ArtAndCultureMainComponent";
+
 function Lifestyle() {
-  return <div>Lifestyle</div>;
+  return (
+    <div>
+      <ArtAndCultureMainComponent title="lifestyle" />
+    </div>
+  );
 }
 
 export default Lifestyle;

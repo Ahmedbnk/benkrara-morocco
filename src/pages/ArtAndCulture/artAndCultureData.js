@@ -1,6 +1,9 @@
 const ArtAndCultureData = [
   {
     id: 1,
+    image:
+      "https://www.kamkamdunes.com/wp-content/uploads/2021/12/moroccan-cusine.jpg",
+    mainImageTitle: "The Inviting Culinary Delights of Morocco",
     title: "gastronomy",
     largeTitle: "Gastronomic journey with Moroccan flavours",
     generalParagraphe:
@@ -88,6 +91,8 @@ const ArtAndCultureData = [
   },
   {
     id: 2,
+    image: "https://fr.hespress.com/wp-content/uploads/2019/03/terroir.jpg",
+    mainImageTitle: "Moroccan Natural Treasures",
     title: "localproducts",
     largeTitle: "Authentic Moroccan nature gifts",
     generalParagraphe:
@@ -136,6 +141,9 @@ const ArtAndCultureData = [
   },
   {
     id: 3,
+    image:
+      "https://previews.123rf.com/images/ealisa/ealisa1405/ealisa140500088/28665699-traditional-moroccan-carpets-in-a-berber-store-in-marakesh-morocco.jpg",
+    mainImageTitle: "Traditional Crafts and Artistry in Morocco",
     title: "moroccanTraditionalCraft",
     largeTitle: "Morocco: a land of unique crafts and art!",
     generalParagraphe:
@@ -216,6 +224,9 @@ const ArtAndCultureData = [
   },
   {
     id: 4,
+    image:
+      "https://friendlymorocco.com/wp-content/uploads/2017/11/moroccan-hospitality2-950x640.jpg",
+    mainImageTitle: "A Land of Elegance and Grace",
     title: "moroccanHospitality",
     largeTitle: "Typical accommodation for an authentic stay",
     generalParagraphe:
@@ -248,6 +259,9 @@ const ArtAndCultureData = [
   },
   {
     id: 5,
+    image:
+      "https://www.arabnews.com/sites/default/files/userimages/445491/shutterstock_272558387.jpg",
+    mainImageTitle: "Living Art and Rich Cultural Traditions in Morocco",
     title: "lifestyle",
     largeTitle: "Long-standing traditions",
     generalParagraphe:

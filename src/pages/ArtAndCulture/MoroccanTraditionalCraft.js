@@ -1,5 +1,11 @@
+import ArtAndCultureMainComponent from "./ArtAndCultureMainComponent";
+
 function MoroccanTraditionalCraft() {
-  return <div>MoroccanTraditionalCraft</div>;
+  return (
+    <div>
+      <ArtAndCultureMainComponent title="moroccanTraditionalCraft" />
+    </div>
+  );
 }
 
 export default MoroccanTraditionalCraft;

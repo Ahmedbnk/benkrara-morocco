@@ -1,5 +1,5 @@
 function Gastronomy() {
-  return <div>Gastronomy</div>;
+  return <div className="gastronomy"></div>;
 }
 
 export default Gastronomy;
