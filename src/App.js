@@ -14,7 +14,7 @@ import MoroccanTraditionalCraft from "./pages/ArtAndCulture/MoroccanTraditionalC
 import Localproducts from "./pages/ArtAndCulture/Localproducts";
 import MoroccanHospitality from "./pages/ArtAndCulture/MoroccanHospitality";
 import Gastronomy from "./pages/ArtAndCulture/Gastronomy";
-import ModernMorocco from "./pages/ModernMorocco/ModernMorocco";
+import ContemporaryMorocco from "./pages/ContemporaryMorocco/ContemporaryMorocco";
 
 function App() {
   return (
@@ -34,7 +34,7 @@ function App() {
         <Route path="/localProducts" element={<Localproducts />} />
         <Route path="HistoryAndGeography/gastronomy" element={<Gastronomy />} />
 
-        <Route path="Modern" element={<ModernMorocco />} />
+        <Route path="Modern" element={<ContemporaryMorocco />} />
         <Route path="Contact" element={<Contact />} />
         <Route path="cities/:cityId" element={<City />} />
         <Route path="beaches/:beachId" element={<Beach />}></Route>

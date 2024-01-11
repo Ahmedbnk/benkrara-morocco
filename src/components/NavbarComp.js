@@ -51,27 +51,43 @@ function NavbarComp() {
                 title="Art & Culture"
                 id="basic-nav-dropdown"
               >
-                <NavDropdown.Item as={NavLink} to={"/gastronomy"}>
-                  Gastronomy
-                </NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to={"/moroccanTraditionalCraft"}>
                   Moroccan Traditional Craft
                 </NavDropdown.Item>
+                <NavDropdown.Item as={NavLink} to={"/gastronomy"}>
+                  Gastronomy
+                </NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to={"/localproducts"}>
                   Local Products
-                </NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to={"/moroccanHospitality"}>
-                  Moroccan Hospitality
                 </NavDropdown.Item>
 
                 <NavDropdown.Item as={NavLink} to={"/lifestyle"}>
                   Lifestyle
                 </NavDropdown.Item>
+                <NavDropdown.Item as={NavLink} to={"/moroccanHospitality"}>
+                  Moroccan Hospitality
+                </NavDropdown.Item>
               </NavDropdown>
             </div>
-            <Nav.Link as={NavLink} to={"/Modern"}>
-              <h5>Modern Morocco</h5>
-            </Nav.Link>
+
+            <div style={{ position: "relative" }}>
+              <NavDropdown
+                style={{ fontSize: "19px" }}
+                title="Contemporary Morocco"
+                id="basic-nav-dropdown"
+              >
+                <NavDropdown.Item as={NavLink} to={"/international brands"}>
+                  Global Fashion Brands
+                </NavDropdown.Item>
+                <NavDropdown.Item as={NavLink} to={"/culture cinema"}>
+                  Cinematic Culture
+                </NavDropdown.Item>
+                <NavDropdown.Item as={NavLink} to={"/modernization"}>
+                  Blend of Tradition and Modernity
+                </NavDropdown.Item>
+              </NavDropdown>
+            </div>
+
             <Nav.Link as={NavLink} to={"/Contact"}>
               <h5>Contact</h5>
             </Nav.Link>
