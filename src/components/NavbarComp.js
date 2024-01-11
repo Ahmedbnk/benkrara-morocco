@@ -46,28 +46,34 @@ function NavbarComp() {
               <h5>History & Geography</h5>
             </Nav.Link>
             <div style={{ position: "relative" }}>
-              <NavDropdown
-                style={{ fontSize: "19px" }}
-                title="Art & Culture"
-                id="basic-nav-dropdown"
-              >
-                <NavDropdown.Item as={NavLink} to={"/moroccanTraditionalCraft"}>
-                  Moroccan Traditional Craft
-                </NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to={"/gastronomy"}>
-                  Gastronomy
-                </NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to={"/localproducts"}>
-                  Local Products
-                </NavDropdown.Item>
+              <div className="artAndCulture">
+                {" "}
+                <NavDropdown
+                  style={{ fontSize: "19px" }}
+                  title="Art & Culture"
+                  id="basic-nav-dropdown"
+                >
+                  <NavDropdown.Item
+                    as={NavLink}
+                    to={"/moroccanTraditionalCraft"}
+                  >
+                    Moroccan Traditional Craft
+                  </NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to={"/gastronomy"}>
+                    Gastronomy
+                  </NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to={"/localproducts"}>
+                    Local Products
+                  </NavDropdown.Item>
 
-                <NavDropdown.Item as={NavLink} to={"/lifestyle"}>
-                  Lifestyle
-                </NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to={"/moroccanHospitality"}>
-                  Moroccan Hospitality
-                </NavDropdown.Item>
-              </NavDropdown>
+                  <NavDropdown.Item as={NavLink} to={"/lifestyle"}>
+                    Lifestyle
+                  </NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to={"/moroccanHospitality"}>
+                    Moroccan Hospitality
+                  </NavDropdown.Item>
+                </NavDropdown>
+              </div>
             </div>
 
             <div style={{ position: "relative" }}>

@@ -36,13 +36,19 @@
   margin-left: 100px;}
 
     .navbar-expand-lg .navbar-nav .nav-link {
-      padding-right: 12px !important;
-      padding-left: 12px !important;
+      padding-right: 13px !important;
+      padding-left: 13px !important;
 }
 
 .dropdown-menu[data-bs-popper] {
   top: 108% !important;
   
+ 
+}
+
+.artAndCulture .dropdown-menu[data-bs-popper] {
+ 
+  left: -31px !important;
  
 }
 .navbar-expand-lg .navbar-nav .dropdown-menu {
