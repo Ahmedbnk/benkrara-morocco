@@ -6,8 +6,8 @@ const ArtAndCultureData = [
     mainImageTitle: "The Inviting Culinary Delights of Morocco",
     title: "gastronomy",
     largeTitle: "Gastronomic journey with Moroccan flavours",
-    generalParagraphe:
-      "Morocco's culinary heritage embraces the deep-rooted traditions and cultural variety of the country. Couscous, Tajine, Pastilla, Mrouzia, and R'fissa are some of the emblematic dishes of the country that you can’t resist. Subtly composed of a wide variety of striking flavours and scents, Moroccan cuisine draws its originality from a combination between Berber, Arab-Andalusian, and Jewish culinary traditions. Thanks to its rich cultural heritage specific to each region, Morocco has built an undisputed reputation worldwide.",
+    generalParagraphe: `
+     Morocco's diverse culinary heritage features iconic dishes like Couscous, Tajine, Pastilla, Mrouzia, and R'fissa, blending Berber, Arab-Andalusian, and Jewish culinary traditions. The rich cultural heritage of each region has earned Morocco a global culinary reputation.`,
     content: [
       {
         id: 1,

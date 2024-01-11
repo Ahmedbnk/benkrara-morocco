@@ -1,0 +1,48 @@
+:root {
+    --card-red:#789450;
+    --card-green:#d9e69e;
+    --card-blue:#1387bd;
+    --background-card-blue:#78d4ff;
+    --p-black:#252525;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-assistant: "Assistant", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+.cont{
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+.para-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: start;
+}
+
+.artAndCulture h2 {
+    
+    font-family: 'Merriweather', serif;
+    
+        text-transform: unset !important;
+    }
+
+    .artAndCulture .row p {
+        font-family: var(--font-assistant);
+        font-size: 18px;
+        line-height: 1.688;
+        color: var(--p-black);
+        margin-top: 22px;
+        font-family: 'Assistant', sans-serif;
+    }
+
+    @media (min-width:767px){
+        .para-container{
+           padding: 0 7%;
+        }
+
+        .para-container-fix-padding{
+            padding:0 14% 0 0 !important;
+        }
+    }
