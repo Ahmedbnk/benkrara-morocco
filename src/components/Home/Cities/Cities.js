@@ -3,7 +3,7 @@ const cities = [
     id: 1,
     name: "Marrakech",
     secondName: "Marrakech: The Red City's Magical Charm",
-    shortDescription: "Magical city with historic charm.",
+    shortDescription: "Magical city with historic charm",
     description:
       "Marrakech, often referred to as the 'Red City,' captivates visitors with its enchanting medina, colorful souks, and iconic landmarks like the Jardin Majorelle. Immerse yourself in the lively atmosphere of Jemaa el-Fna square and savor the rich flavors of Moroccan cuisine.",
     image:
@@ -82,7 +82,7 @@ const cities = [
     id: 2,
     name: "Casablanca",
     secondName: "Casablanca: Where Tradition Meets Modernity",
-    shortDescription: "Morocco's largest city with modern charm.",
+    shortDescription: "Morocco's largest city with modern charm",
     description:
       "Casablanca, Morocco's economic and business hub, is known for its modern architecture, lively atmosphere, and vibrant markets. From the iconic Hassan II Mosque to the bustling streets of the medina, Casablanca offers a unique blend of tradition and progress.",
     image:
@@ -164,7 +164,7 @@ const cities = [
     id: 3,
     name: "Fes",
     secondName: "Fes: Ancient City with a Rich Cultural Heritage",
-    shortDescription: "Ancient city with a rich cultural heritage.",
+    shortDescription: "Ancient city with a rich cultural heritage",
     description:
       "Fes, one of Morocco's oldest imperial cities, is a treasure trove of history and culture. Explore the medieval medina, visit the University of Al Quaraouiyine, and be captivated by the intricate architecture of Bou Inania Madrasa. Fes is a journey back in time.",
     image:
@@ -243,7 +243,7 @@ const cities = [
     id: 4,
     name: "Rabat",
     secondName: "Rabat: Capital City with a Blend of Modernity and Tradition",
-    shortDescription: "Capital city with a blend of modernity and tradition.",
+    shortDescription: "Capital city with a blend of modernity and tradition",
     description:
       "Rabat, Morocco's capital, boasts a mix of historic landmarks and modern developments. Visit the Royal Palace, wander through the charming Kasbah of the Udayas, and explore the impressive Hassan Tower. Rabat offers a serene and culturally rich experience. & 100% nasarahou lah 👙♟",
     image:
@@ -321,7 +321,7 @@ const cities = [
     id: 5,
     name: "Tangier",
     secondName: "Tangier: Gateway to Africa with a Cosmopolitan Vibe",
-    shortDescription: "Gateway to Africa with a cosmopolitan vibe.",
+    shortDescription: "Gateway to Africa with a cosmopolitan vibe",
     description:
       "Tangier, located at the crossroads of Africa and Europe, has a unique charm. Stroll along the famous Boulevard Pasteur, visit the medina and Kasbah, and enjoy panoramic views from Cape Spartel. Tangier has been a haven for artists and writers throughout history.",
     image:
@@ -400,7 +400,7 @@ const cities = [
     id: 6,
     name: "Chefchaouen",
     secondName: "Chefchaouen: The Blue City Nestled in the Rif Mountains",
-    shortDescription: "The blue city nestled in the Rif Mountains.",
+    shortDescription: "The blue city nestled in the Rif Mountains",
     description:
       "Chefchaouen, known for its blue-washed buildings, is a picturesque gem in the Rif Mountains. Lose yourself in the narrow, winding streets, discover local crafts, and hike to the Spanish Mosque for breathtaking views. Chefchaouen is a tranquil and visually stunning escape.",
     image:
@@ -478,7 +478,7 @@ const cities = [
     id: 7,
     name: "Essaouira",
     secondName: "Essaouira: Coastal Town with a Laid-back Atmosphere",
-    shortDescription: "Coastal town with a laid-back atmosphere.",
+    shortDescription: "Coastal town with a laid-back atmosphere",
     description:
       "Essaouira, situated along the Atlantic coast, offers a relaxed and artistic ambiance. Wander through the UNESCO-listed medina, stroll along the windswept beach, and experience the vibrant arts scene. Essaouira is a charming destination with a maritime heritage.",
     image:
@@ -557,7 +557,7 @@ const cities = [
     id: 8,
     name: "Agadir",
     secondName: "Agadir: Modern Seaside Resort with Sandy Beaches",
-    shortDescription: "Modern seaside resort with sandy beaches.",
+    shortDescription: "Modern seaside resort with sandy beaches",
     description:
       "Agadir, a modern resort city along the Atlantic, is renowned for its long sandy beaches and vibrant nightlife. Rebuilt after a devastating earthquake, Agadir offers a perfect blend of relaxation and entertainment, making it a popular destination for sun-seekers.",
     image:
@@ -636,7 +636,7 @@ const cities = [
     id: 9,
     name: "Meknes",
     secondName: "Meknes: Imperial City with Grand Architecture",
-    shortDescription: "Imperial city with grand architecture.",
+    shortDescription: "Imperial city with grand architecture",
     description:
       "Meknes, one of Morocco's imperial cities, showcases grand architecture and historical significance. Explore the vast Heri es-Souani granaries, visit the mausoleum of Moulay Ismail, and experience the vibrant atmosphere of the El Hedim Square. Meknes is a testament to Morocco's rich heritage.",
     image:
@@ -713,7 +713,7 @@ const cities = [
     id: 10,
     name: "Ouarzazate",
     secondName: "Ouarzazate: Gateway to the Sahara with Cinematic Landscapes",
-    shortDescription: "Gateway to the Sahara with cinematic landscapes.",
+    shortDescription: "Gateway to the Sahara with cinematic landscapes",
     description:
       "Ouarzazate, often referred to as the 'Gateway to the Sahara,' is a city surrounded by stunning desert landscapes. Visit the famous Ait Ben Haddou Kasbah, explore the Atlas Film Studios, and embark on a desert adventure. Ouarzazate is a captivating destination for film enthusiasts and desert explorers.",
     image:
@@ -792,7 +792,7 @@ const cities = [
     id: 11,
     name: "Safi",
     secondName: "Safi: Coastal City Known for Its Pottery and Sea Views",
-    shortDescription: "Coastal city known for its pottery and sea views.",
+    shortDescription: "Coastal city known for its pottery and sea views",
     description:
       "Safi, a coastal city on the Atlantic, is famous for its pottery and panoramic sea views. Explore the historic medina, visit the Pottery Museum, and enjoy fresh seafood by the sea. Safi's artistic heritage and maritime charm make it a unique destination.",
     image:
