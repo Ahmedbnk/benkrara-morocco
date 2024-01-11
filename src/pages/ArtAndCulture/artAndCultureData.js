@@ -92,7 +92,7 @@ const ArtAndCultureData = [
   {
     id: 2,
     image:
-      "https://moroccanelixir.com/cdn/shop/articles/8_Beauty_Benefits_of_Orange_Blossom_Water_1000x.jpg?v=1626593324",
+      "https://www.tastingtable.com/img/gallery/why-you-should-always-keep-orange-blossom-water-in-your-pantry/l-intro-1658756989.jpg",
     mainImageTitle: "Moroccan Natural Treasures",
     title: "localproducts",
     largeTitle: "Authentic Moroccan nature gifts",
@@ -172,7 +172,7 @@ const ArtAndCultureData = [
         paragraphe:
           "As an interior design, Zellige tiles with intricate shapes are lining the walls and floors of every Riad. Being a cultural heritage, it is an essential element of Moroccan architecture. All over the country, find these mosaics on traditional objects or used in innovative creations! Plaster sculptures are also easy to see when entering a Riad. What about the Moroccan capital of zellige? That’s undoubtedly the city of Fez! Buy a multitude of wonders in its typical tiny shops.",
         image:
-          "https://www.art-poterie-ach.com/wp-content/uploads/2015/09/fount-2--1024x679.jpg",
+          "https://planetmarrakech.com/wp-content/uploads/2019/07/architecture-zellig.jpg",
       },
       {
         id: 4,

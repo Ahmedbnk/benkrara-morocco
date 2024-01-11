@@ -69,7 +69,7 @@ function NavbarComp() {
                 </NavDropdown.Item>
               </NavDropdown>
             </div>
-            <Nav.Link as={NavLink} to={"/Contemporary"}>
+            <Nav.Link as={NavLink} to={"/Modern"}>
               <h5>Modern Morocco</h5>
             </Nav.Link>
             <Nav.Link as={NavLink} to={"/Contact"}>
