@@ -83,7 +83,7 @@ function NavbarComp() {
                   Cinematic Culture
                 </NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to={"/modernization"}>
-                  Blend of Tradition and Modernity
+                  Modernization in Morocco
                 </NavDropdown.Item>
               </NavDropdown>
             </div>
