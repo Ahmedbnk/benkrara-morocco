@@ -226,7 +226,7 @@ const ArtAndCultureData = [
   {
     id: 4,
     image:
-      "https://friendlymorocco.com/wp-content/uploads/2017/11/moroccan-hospitality2-950x640.jpg",
+      "https://theglobalwizards.com/wp-content/uploads/2023/06/Morocco-with-kids.jpg",
     mainImageTitle: "A Land of Elegance and Grace",
     title: "moroccanHospitality",
     largeTitle: "Typical accommodation for an authentic stay",
