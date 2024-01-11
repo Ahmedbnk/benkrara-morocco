@@ -54,11 +54,11 @@ function NavbarComp() {
                 <NavDropdown.Item as={NavLink} to={"/gastronomy"}>
                   Gastronomy
                 </NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to={"/localproducts"}>
-                  Local Products
-                </NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to={"/moroccanTraditionalCraft"}>
                   Moroccan Traditional Craft
+                </NavDropdown.Item>
+                <NavDropdown.Item as={NavLink} to={"/localproducts"}>
+                  Local Products
                 </NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to={"/moroccanHospitality"}>
                   Moroccan Hospitality
