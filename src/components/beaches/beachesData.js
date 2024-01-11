@@ -108,7 +108,7 @@ const beachesData = [
     id: 4,
     name: "Legzira Beach",
     shortDescription:
-      "Famous for natural stone arches sculpted by the Atlantic Ocean.",
+      "Famous for natural stone arches sculpted by the Atlantic Ocean",
     description:
       "Legzira Beach, in Sidi Ifni, boasts stunning natural stone arches sculpted by the Atlantic Ocean, making it a haven for photographers and nature lovers.",
     image:
